@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .hero {
+    background: #2c3e50;
+    color: white;
+    padding: 50px 20px;
+  }
+  .cta {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .about, .meetings {
+    margin: 40px 0;
+  }
+  .meeting-link {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+  }

@@ -1,0 +1,255 @@
+.homepage {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1d3e8a, #0aaf4b);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .hero {
+    width: 80%;
+    margin-top: 20px;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaButton {
+    background: #ffcc00;
+    color: #1d3e8a;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .ctaButton:hover {
+    background: #e6b800;
+    transform: scale(1.05);
+  }
+  
+  .reflectionSection, .subscriptionSection {
+    background: white;
+    color: #333;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    color: #1d3e8a;
+    margin-bottom: 10px;
+  }
+  
+  .reflectionPreview {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .readMoreButton {
+    margin-top: 15px;
+    background: #1d3e8a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .readMoreButton:hover {
+    background: #142c66;
+    transform: scale(1.05);
+  }
+  
+  .emailInput {
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #1d3e8a;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .subscribeButton {
+    background: #0aaf4b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .subscribeButton:hover {
+    background: #08923d;
+    transform: scale(1.05);
+  }
+  
+
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+  .carouselContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 90%;
+    word-wrap: break-word;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .learnMoreButton {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .learnMoreButton:hover {
+    background: #388E3C;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .activeDot {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .carouselContent {
+      top: 45%;
+      max-width: 80%;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .text {
+      font-size: 1rem;
+    }
+  
+    .learnMoreButton {
+      padding: 10px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .dot {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+
+
+
+/* Helpline Section */
+.helplineSection {
+    background: white;
+    color: #003366;
+    padding: 40px 20px;
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .helplineTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .helplineContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  
+  .helplineItem {
+    background: #f5f5f5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  

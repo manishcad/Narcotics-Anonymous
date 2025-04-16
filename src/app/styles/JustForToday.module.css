@@ -1,0 +1,115 @@
+.container {
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1d3e8a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.date {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: -10px;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #0aaf4b;
+  margin-top: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #444;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  background: #f3f3f3;
+  padding: 15px;
+  border-left: 5px solid #1d3e8a;
+  border-radius: 5px;
+}
+
+.reference {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.emphasis {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #d9534f;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 20px;
+}
+
+.subscribeButton {
+  background-color: #1d3e8a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.subscribeButton:hover {
+  background-color: #142c66;
+  transform: scale(1.05);
+}
+
+.languageSelect {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #1d3e8a;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #1d3e8a;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.languageSelect:hover {
+  background-color: #e0e7ff;
+}
+
+.languageSelect:focus {
+  border-color: #0aaf4b;
+}
+
+.languageSelect option {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  padding: 10px;
+}
